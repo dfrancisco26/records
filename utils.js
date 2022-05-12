@@ -28,7 +28,7 @@ export function simpleRender(record) {
     a.href = `./record-page/?id=${record.id}`;
 
     a.append(img);
-    div.append(a, p);
+    div.append(p, a);
     return div;
 }
 
