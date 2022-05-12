@@ -11,5 +11,5 @@ recordName.textContent = record.name;
 recordImg.src = `../assets/${record.name}.png`;
 
 const recordDiv = document.createElement('div');
-recordDiv.textContent = renderRecord(record);
+recordDiv.innerHTML = renderRecord(record);
 recordDetails.append(recordDiv);
