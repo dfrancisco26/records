@@ -4,7 +4,7 @@ export function renderRecord(record) {
     div.classList.add('record');
 
     const a = document.createElement('a');
-    a.href = `../records/index.html`;
+    a.href = `/`;
 
     const h1 = document.createElement('h1');
     h1.textContent = record.name;
@@ -32,7 +32,7 @@ export function simpleRender(record) {
     img.src = record.image;
 
     const a = document.createElement('a');
-    a.href = `./record-page/index.html/?id=${record.id}`;
+    a.href = `./record-page/?id=${record.id}`;
 
     a.append(img);
     div.append(a);

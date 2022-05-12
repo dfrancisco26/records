@@ -4,14 +4,14 @@ export const records = [
         name: 'Led Zeppelin II',
         artist: 'Led Zeppelin',
         genre: 'Rock',
-        image: './assets/led-zep.png',
+        image: './assets/Led Zeppelin II.png',
     },
     {
         id: '2',
         name: 'Trials of Van Occupanther',
         artist: 'Midlake',
         genre: 'soft-rock/folk',
-        image: './assets/trials.png',
+        image: './assets/Trials of Van Occupanther.png',
     },
     {
         id: '3',
