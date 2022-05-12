@@ -3,16 +3,13 @@ export function renderRecord(record) {
     const div = document.createElement('div');
     div.classList.add('record');
 
-//    const h1 = document.createElement('h1');
-//    h1.textContent = record.name;
-
     const h2 = document.createElement('h2');
     h2.textContent = `${record.name} is a ${record.genre} album recorded by ${record.artist}.`;
 
     const img = document.createElement('img');
     img.src = `../assets/${record.name}.png`;
 
-    div.append( h2, img);
+    div.append(h2, img);
     return div;
 }
 
