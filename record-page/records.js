@@ -12,4 +12,4 @@ recordImg.src = `../assets/${record.name}.png`;
 
 const recordDiv = document.createElement('div');
 recordDiv.textContent = renderRecord(record);
-recordDiv.append(recordDetails);
+recordDetails.append(recordDiv);

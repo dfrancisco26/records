@@ -13,9 +13,8 @@ export function renderRecord(record) {
     h2.textContent = `${record.name} is a ${record.genre} album recorded by ${record.artist}.`;
 
     const img = document.createElement('img');
-    img.src = record.image;
+    img.src = `../assets/${record.name}.png`;
 
-    a.append(img);
     div.append(h1, h2, img);
     return div;
 }
